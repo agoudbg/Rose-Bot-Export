@@ -485,7 +485,7 @@ export interface RoseBotExport {
             /**
              * Set the chat's warn mode.
              */
-            action: string;
+            action: 'ban' | 'mute' | 'kick' | 'tban' | 'tmute';
             action_duration: number;
             /**
              * Set how long warnings should last. Example time values: 4m = 4 minutes, 3h = 3 hours, 6d = 6 days, 5w = 5 weeks.
