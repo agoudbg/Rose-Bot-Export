@@ -1,6 +1,6 @@
 {
   "name": "rose-bot-export",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript support for Rose Bot export file.",
   "main": "",
   "types": "dist/index.d.ts",
@@ -25,5 +25,8 @@
   "homepage": "https://github.com/agoudbg/rose-bot-export#readme",
   "devDependencies": {
     "typescript": "^4.0.0"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
